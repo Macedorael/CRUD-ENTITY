@@ -1,0 +1,65 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Build e debug
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.mdb
+*.userosscache
+*.ilk
+*.log
+*.vspscc
+*.vssscc
+
+# Configuração do Visual Studio
+.vs/
+.idea/
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# Testes
+TestResults/
+*.trx
+*.coverage
+
+# Configurações de pacotes e build
+*.nuget
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+
+# Entity Framework e Migrations
+Migrations/
+*.edmx*
+*.tt
+*.jfm
+DatabaseGeneratedScripts/
+
+# Publicação
+publish/
+*.publishsettings
+.vscode/
+.vscode/*
+
+# Configurações do sistema operacional
+*.swp
+*.sln.docstates
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos de lock ou temporários
+*.pidb
+*.pidb.meta
+*.tmp
+*.bak
